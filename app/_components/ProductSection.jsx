@@ -16,7 +16,7 @@ function ProductSection() {
   };
 
   return (
-    <div className="px-4 md:px-6">
+    <div className="">
       <MainTitle />
       <ProductList productList={productList} />
     </div>
