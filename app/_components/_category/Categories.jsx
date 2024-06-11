@@ -4,7 +4,7 @@ import CategoriesSkeleton from "../_skeleton/CategoriesSkeleton";
 
 function Categories({ categoriesList }) {
   return (
-    <div className="mt-16">
+    <div className="mt-8">
       <h3 className="text-green-600 font-bold text-xl mb-3">
         Shop By Category
       </h3>
