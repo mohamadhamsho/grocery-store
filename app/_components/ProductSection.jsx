@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import ProductsApis from "../_utils/ProductsApis";
 import ProductList from "./ProductList";
-import MainTitle from "./MainTitle";
+import MainTitle from "./_mianTitle/MainTitle";
 
 function ProductSection() {
   const [productList, setProductList] = useState([]);
@@ -17,7 +17,7 @@ function ProductSection() {
 
   return (
     <div className="">
-      <MainTitle />
+      <MainTitle>Latest Products</MainTitle>
       <ProductList productList={productList} />
     </div>
   );

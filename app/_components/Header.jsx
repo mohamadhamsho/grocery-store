@@ -23,7 +23,7 @@ function Header() {
   };
   return (
     <header className="bg-white shadow-md w-full">
-      <div className="mx-auto flex h-16 container items-center gap-8 px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto flex h-16 container items-center gap-8 ">
         <a className="block text-primary" href="#">
           <Image src={logoImg} alt="logo" width={40} height={40} />
         </a>
